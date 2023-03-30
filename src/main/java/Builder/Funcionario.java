@@ -8,6 +8,7 @@ public class Funcionario {
     private String CPF;
     private String idade;
     private String CEP;
+    private String TipoSangue;
 
     public Funcionario(){
         this.id = 0;
@@ -68,5 +69,13 @@ public class Funcionario {
 
     public void setCEP(String CEP) {
         this.CEP = CEP;
+    }
+
+    public String getTipoSangue() {
+        return TipoSangue;
+    }
+
+    public void setTipoSangue(String tipoSangue) {
+        TipoSangue = tipoSangue;
     }
 }
